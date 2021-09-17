@@ -53,7 +53,7 @@ const HeroSlider = () => {
             setSliderIndex((prevIndex) => 
                 prevIndex >= imageArray.length - 1 ? 0 : prevIndex + 1
             )
-        }, 2000);
+        }, 5000);
         return () => { resetTimeout(); };
     }, [sliderIndex]);
 
